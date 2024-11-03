@@ -29,7 +29,10 @@ removeMenu();
 
 // open webpage
 
-const openUrl = document.getElementById('openUrl')
-openUrl.addEventListener("click" ,()=>{
-    window.open('https://rajag5348.github.io/Food-delivery-webpage/')
-})
+const openUrl = ()=>{
+    const openUrl = document.getElementById('openUrl')
+    openUrl.addEventListener('click',()=>{
+        window.open('https://rajag5348.github.io/Food-delivery-webpage/')
+    } )
+}
+openUrl()
