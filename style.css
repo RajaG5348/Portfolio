@@ -313,10 +313,6 @@ body {
 }
 
 .skill_container {
-  /* display: flex;
-  margin: var(--max-height);
-  justify-content: space-between;
-  align-items: center; */
   display: grid;
   grid-template-columns: 60% 40%;
   place-items: center;
@@ -394,9 +390,8 @@ body {
   }
 }
 
-
-@media screen and (max-width:350px) {
-  .skill .skill_text{
+@media screen and (max-width: 350px) {
+  .skill .skill_text {
     width: 300px;
     padding-left: 70px;
   }
@@ -447,8 +442,8 @@ body {
 
 @media screen and (max-width: 930px) {
   .project .project__container {
-   grid-template-columns: 100%;
-   gap: 50px;
+    grid-template-columns: 100%;
+    gap: 50px;
   }
 }
 
@@ -482,10 +477,9 @@ body {
 }
 
 .contact_container {
- margin: var(--max-height) 50px;
+  margin: var(--max-height) 50px;
   display: grid;
   place-items: center;
-
 }
 
 .contact .control_input {
@@ -519,8 +513,8 @@ body {
   background: #c7c1c1;
   color: #000;
 }
-@media screen and (max-width:320px) {
-  .contact .contact_container{
+@media screen and (max-width: 320px) {
+  .contact .contact_container {
     padding-left: 50px;
   }
 }
